@@ -2,14 +2,16 @@ import React from 'react'
 import '../css/Navbar.css'
 
 function Navbar() {
+
     return (
-        <div className="navbar">
+        <div className={`navbar  `}>
             <span className="logo">P</span>
             <ul >
-                <li><a>Home</a></li>
-                <li>About</li>
+                <li><a href="/" className="active">Home</a></li>
+                <li ><a href="#about">About</a></li>
                 <li>Work</li>
-                <li>Blogs</li>
+
+                <li><a href="#blogs">Blogs</a></li>
                 <li>Experience</li>
                 <li>Contact</li>
             </ul>

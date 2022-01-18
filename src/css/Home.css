@@ -3,6 +3,19 @@
   margin: auto;
 }
 
+.animate {
+  animation: fadein 3s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 .home__wrapper h1 {
   font-size: 60px;
   padding: 0;

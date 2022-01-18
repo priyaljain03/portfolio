@@ -1,9 +1,22 @@
 .navbar {
   margin: 0;
+  padding: 0;
   display: flex;
   justify-content: space-between;
   height: auto;
+  /* position: sticky; */
+  top: 0;
   /* background-color: rgb(211, 175, 128, 0.3); */
+}
+
+.navbar__scroll {
+  /* background-color: rgba(121, 197, 121, 0.6); */
+  background-color: red;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
 
 .navbar li {
@@ -11,6 +24,11 @@
   color: black;
   font-weight: 800;
   display: inline-block;
+}
+
+.navbar li:hover {
+  cursor: pointer;
+  background-color: rgba(121, 197, 121, 0.6);
 }
 
 .logo {
