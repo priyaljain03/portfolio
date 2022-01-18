@@ -1,0 +1,22 @@
+.navbar {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  height: auto;
+  /* background-color: rgb(211, 175, 128, 0.3); */
+}
+
+.navbar li {
+  padding: 25px;
+  color: black;
+  font-weight: 800;
+  display: inline-block;
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: 1000;
+  border: 2px dashed rgb(121, 197, 121);
+  margin: 2%;
+  padding: 3px 10px;
+}

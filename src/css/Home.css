@@ -1,0 +1,33 @@
+.home__wrapper {
+  width: 50%;
+  margin: auto;
+}
+
+.home__wrapper h1 {
+  font-size: 60px;
+  padding: 0;
+  margin: 0;
+}
+
+.home__wrapper h2 {
+  font-size: 30px;
+  margin-top: 0;
+  padding: 0;
+  color: rgb(121, 197, 121);
+}
+
+.home__wrapper p {
+  color: rgb(58, 54, 54);
+  font-size: 25px;
+}
+
+.resume__btn {
+  background-color: transparent;
+  height: 40px;
+  border: 2px solid rgb(121, 197, 121);
+  font-family: cursive;
+}
+
+.resume__btn:hover {
+  background-color: rgba(121, 197, 121, 0.4);
+}
