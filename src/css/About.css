@@ -1,11 +1,11 @@
 .container {
   margin-top: 10% !important;
   margin-bottom: 10% !important;
-  width: 70%;
+  width: 90%;
   margin: auto;
   display: flex;
   background-color: rgba(121, 197, 121, 0.3);
-  border: 2px dotted green;
+  /* border: 2px dotted green; */
   padding: 40px;
 }
 .animate {

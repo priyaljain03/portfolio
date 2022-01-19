@@ -5,6 +5,7 @@ import About from './components/About';
 import Home from './components/Home';
 import Blogs from './components/Blogs';
 import Stickymain from './components/Stickymain';
+import Experience from './components/Experience';
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
 
       <Home />
       <About />
-      <Blogs />
+      <Experience />
+      {/* <Blogs /> */}
       <div className="tnt">
         <div className="social__box">
           <i class="fa-solid fa-user"></i>

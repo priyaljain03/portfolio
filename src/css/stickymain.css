@@ -1,16 +1,45 @@
+.sticky__wrapper {
+  display: flexbox;
+  justify-content: space-between;
+}
+
 .sticky-mail {
   writing-mode: vertical-rl;
+  vertical-align: middle;
   color: black;
   position: fixed;
-  bottom: 150px;
+  bottom: 0px;
+  right: 20px;
   margin-left: 20px;
   font-family: monospace;
   float: right !important;
   transition: transform 500ms;
+  justify-content: flex-end !important;
+  font-size: 13px;
+  letter-spacing: 1px;
 }
 
 .sticky-mail:hover {
-  color: rgb(121, 197, 121);
+  color: green;
   /* bottom: 153px; */
   transform: scale(1.1);
+}
+
+.sticky__icons {
+  position: fixed;
+  bottom: 0px;
+  font-size: 20px;
+  writing-mode: vertical-rl;
+  margin-left: 20px;
+  justify-content: flex-start !important;
+}
+
+.sticky__icons a {
+  padding: 15px;
+  transition: transform 500ms;
+}
+
+.sticky__icons a:hover {
+  transform: scale(1.6) !important;
+  color: rgba(121, 197, 121);
 }
