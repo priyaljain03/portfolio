@@ -1,0 +1,64 @@
+
+@media only screen and (max-width: 480px) {
+    /* Mobile Devices */
+    .footer{
+        width: 30%;
+        margin:auto;
+        padding-bottom:20px;
+        color:#CCD6F6;
+        font-size:12px;
+        font-family:cursive;
+    }
+    
+    
+    .footer span{
+        color:yellowgreen
+    }
+    
+  }
+  
+  @media only screen and (min-width:481px) and (max-width: 768px) {
+   /* IPADs */
+  /* Tablets */
+  .footer{
+    width: 30%;
+    margin:auto;
+    padding-bottom:20px;
+    color:#CCD6F6;
+    font-size:12px;
+    font-family:cursive;
+}
+
+
+.footer span{
+    color:yellowgreen
+}
+  }
+  
+  @media only screen and (min-width:769px) and (max-width: 1024px) {
+   /* Small Screen Laptops */
+   
+  }
+  
+  @media only screen and (min-width:1024px) and (max-width: 1200px) {
+    /* Desktops */
+   
+  }
+  
+  @media only screen and (min-width:1201px) {
+  /* Extra large screens,TV */
+  .footer{
+    width: 10%;
+    margin:auto;
+    padding-bottom:10px;
+    color:#CCD6F6;
+    font-size:14px;
+    font-family:cursive;
+}
+
+
+.footer span{
+    color:yellowgreen
+}
+
+  }

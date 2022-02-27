@@ -1,23 +1,78 @@
+@media only screen and (max-width: 480px) {
+  /* Mobile Devices */
+  .experience__wrapper {
+    width: 60%;
+    margin: auto;
+    margin-top: 45%;
+    margin-bottom: 49%;
+  }
+  
+  .experience__header__wrapper {
+    display: flex;
+    color:#CCD6F6
+  }
+  
+  .experience__header {
+    font-size: 30px;
+    margin-bottom: 25px;
+  }
+  
+  .experience__inner {
+    display: flex;
+  }
+  
+  .experience__tabs {
+    margin: 0;
+  }
+  .experience__inner ul {
+    margin: 0;
+    padding: 0 !important;
+  }
+  
+  .experience__tabs li {
+    list-style: none;
+    padding: 15px;
+    background-color: rgb(13, 13, 58);
+    color:#CCD6F6;
+    font-size: 12px;
+  }
+  
+  .experience__content {
+    margin-left: 10px;
+    margin-top: 0;
+    color:#CCD6F6;
+    opacity:1;
+    font-size:10px
+  }
+
+  .experience__content h5{
+    font-size:12px !important
+  }
+}
+
+
+@media only screen and (min-width:481px) and (max-width: 768px) {
+ /* IPADs */
+/* Tablets */
 .experience__wrapper {
   width: 60%;
   margin: auto;
-  margin-bottom: 100px;
-  color: rgb(61, 59, 59);
+  margin-top: 35%;
+  margin-bottom: 35%;
 }
 
 .experience__header__wrapper {
   display: flex;
+  color:#CCD6F6
 }
 
 .experience__header {
-  font-size: 35px;
+  font-size: 30px;
   margin-bottom: 25px;
 }
 
 .experience__inner {
   display: flex;
-  /* justify-content: space-between; */
-  /* margin-top: 10px; */
 }
 
 .experience__tabs {
@@ -29,21 +84,168 @@
 }
 .experience__tabs li {
   list-style: none;
-  /* margin-top: 15px;
-  margin-bottom: 15px; */
   padding: 15px;
-  background-color: rgba(179, 228, 179, 0.6);
-  border-bottom: 1px solid white;
-}
-.experience__tabs li:hover {
-  opacity: 0.5;
+  background-color: rgb(13, 13, 58);
+  color:#CCD6F6;
+  font-size: 12px;
 }
 
 .experience__content {
   margin-left: 20px;
   margin-top: 0;
+  color:#CCD6F6;
+  opacity:1;
+  font-size:12px
 }
 
-.rule {
-  color: aqua;
+.experience__content h5{
+  font-size:15px !important;
+}
+}
+
+@media only screen and (min-width:769px) and (max-width: 1024px) {
+ /* Small Screen Laptops */
+ .experience__wrapper {
+  width: 60%;
+  margin: auto;
+  margin-top: 15%;
+  margin-bottom: 19%;
+  /* color: #CCD6F6; */
+}
+
+.experience__header__wrapper {
+  display: flex;
+  color:#CCD6F6
+}
+
+.experience__header {
+  font-size: 35px;
+  margin-bottom: 25px;
+}
+
+.experience__inner {
+  display: flex;
+
+}
+
+.experience__tabs {
+  margin: 0;
+}
+.experience__inner ul {
+  margin: 0;
+  padding: 0 !important;
+}
+.experience__tabs li {
+  list-style: none;
+  padding: 15px;
+  background-color: rgb(13, 13, 58);
+  /* border-bottom: 1px solid yellowgreen; */
+  color:#CCD6F6;
+  font-size: 12px;
+}
+
+.experience__content {
+  margin-left: 20px;
+  margin-top: 0;
+  color:#CCD6F6;
+  opacity:1
+}
+}
+
+@media only screen and (min-width:1024px) and (max-width: 1200px) {
+  /* Desktops */
+  .experience__wrapper {
+    width: 60%;
+    margin: auto;
+    margin-top: 15%;
+    margin-bottom: 19%;
+    /* color: #CCD6F6; */
+  }
+  
+  .experience__header__wrapper {
+    display: flex;
+    color:#CCD6F6
+  }
+  
+  .experience__header {
+    font-size: 35px;
+    margin-bottom: 25px;
+  }
+  
+  .experience__inner {
+    display: flex;
+  
+  }
+  
+  .experience__tabs {
+    margin: 0;
+  }
+  .experience__inner ul {
+    margin: 0;
+    padding: 0 !important;
+  }
+  .experience__tabs li {
+    list-style: none;
+    padding: 15px;
+    background-color: rgb(13, 13, 58);
+    /* border-bottom: 1px solid yellowgreen; */
+    color:#CCD6F6;
+    font-size: 12px;
+  }
+  
+  .experience__content {
+    margin-left: 20px;
+    margin-top: 0;
+    color:#CCD6F6;
+    opacity:1
+  }
+}
+
+@media only screen and (min-width:1201px) {
+/* Extra large screens,TV */
+.experience__wrapper {
+  width: 60%;
+  margin: auto;
+  margin-top: 15%;
+  margin-bottom: 19%;
+  /* color: #CCD6F6; */
+}
+
+.experience__header__wrapper {
+  display: flex;
+  color:#CCD6F6
+}
+
+.experience__header {
+  font-size: 35px;
+  margin-bottom: 25px;
+}
+
+.experience__inner {
+  display: flex;
+
+}
+
+.experience__tabs {
+  margin: 0;
+}
+.experience__inner ul {
+  margin: 0;
+  padding: 0 !important;
+}
+.experience__tabs li {
+  list-style: none;
+  padding: 15px;
+  background-color: rgb(13, 13, 58);
+  /* border-bottom: 1px solid yellowgreen; */
+  color:#CCD6F6;
+  font-size: 12px;
+}
+
+.experience__content {
+  margin-left: 20px;
+  margin-top: 0;
+  color:#CCD6F6;
+  opacity:1
+}
 }

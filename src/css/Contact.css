@@ -1,0 +1,143 @@
+@media only screen and (max-width: 480px) {
+    /* Mobile Devices */
+    .contact__wrapper{
+        width:50%;
+        margin:auto;
+        margin-top:30%;
+        margin-bottom:30%;
+    }
+    
+    .contact__wrapper h1{
+        color:#CCD6F6;
+        font-size:30px;
+        text-align:center
+    }
+    
+    .contact__wrapper p{
+        color:#CCD6F6;
+        opacity: 0.6;
+        text-align: center;
+        font-size:14px
+    }
+    
+    .contact__wrapper h4{
+        color:yellowgreen;
+        text-align:center;
+        font-size:13px
+    }
+  }
+  
+  @media only screen and (min-width:481px) and (max-width: 768px) {
+   /* IPADs */
+  /* Tablets */
+  .contact__wrapper{
+    width:50%;
+    margin:auto;
+    margin-top:20%;
+    margin-bottom:20%;
+}
+
+.contact__wrapper h1{
+    color:#CCD6F6;
+    font-size:40px;
+    text-align:center
+}
+
+.contact__wrapper p{
+    color:#CCD6F6;
+    opacity: 0.6;
+    text-align: center;
+    font-size: 12px ;
+}
+
+.contact__wrapper h4{
+    color:yellowgreen;
+    text-align:center;
+    font-size:12px
+}
+  }
+  
+  @media only screen and (min-width:769px) and (max-width: 1024px) {
+   /* Small Screen Laptops */
+   .contact__wrapper{
+    width:50%;
+    margin:auto;
+    margin-top:20%;
+    margin-bottom:20%;
+}
+
+.contact__wrapper h1{
+    color:#CCD6F6;
+    font-size:40px;
+    text-align:center
+}
+
+.contact__wrapper p{
+    color:#CCD6F6;
+    opacity: 0.6;
+    text-align: center;
+    font-size: 12px ;
+}
+
+.contact__wrapper h4{
+    color:yellowgreen;
+    text-align:center;
+    font-size:12px ;
+}
+  }
+  
+  @media only screen and (min-width:1024px) and (max-width: 1200px) {
+    /* Desktops */
+    .contact__wrapper{
+        width:50%;
+        margin:auto;
+        margin-top:20%;
+        margin-bottom:20%;
+    }
+    
+    .contact__wrapper h1{
+        color:#CCD6F6;
+        font-size:50px;
+        text-align:center
+    }
+    
+    .contact__wrapper p{
+        color:#CCD6F6;
+        opacity: 0.6;
+        text-align: center;
+    }
+    
+    .contact__wrapper h4{
+        color:yellowgreen;
+        text-align:center;
+        font-size:15px
+    }
+  }
+  
+  @media only screen and (min-width:1201px) {
+  /* Extra large screens,TV */
+  .contact__wrapper{
+    width:50%;
+    margin:auto;
+    margin-top:20%;
+    margin-bottom:20%;
+}
+
+.contact__wrapper h1{
+    color:#CCD6F6;
+    font-size:50px;
+    text-align:center
+}
+
+.contact__wrapper p{
+    color:#CCD6F6;
+    opacity: 0.6;
+    text-align: center;
+}
+
+.contact__wrapper h4{
+    color:yellowgreen;
+    text-align:center;
+    font-size:15px
+}
+  }

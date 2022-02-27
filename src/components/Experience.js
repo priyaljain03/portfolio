@@ -40,10 +40,11 @@ function Experience() {
                 <h3 className="experience__header">Where I've Worked </h3>
             </div>
             <div className="experience__inner">
+                <hr />
                 <ul className="experience__tabs">
                     <li id="InfoBeans" className="tab" onClick={handleclick}>Infobeans</li>
-                    <li id="Apple" className="tab" onClick={handleclick}>Apple</li>
-                    <li id="Google" className="tab" onClick={handleclick}>google</li>
+                    {/* <li id="Apple" className="tab" onClick={handleclick}>Apple</li>
+                    <li id="Google" className="tab" onClick={handleclick}>google</li> */}
                 </ul>
                 <div className="experience__content">
                     <ExperienceItem company={state.company} title={state.title} description={state.description} from={state.from} to={state.to} />

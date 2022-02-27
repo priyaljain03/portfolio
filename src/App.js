@@ -3,9 +3,11 @@ import './App.css';
 import Navbar from './components/Navbar';
 import About from './components/About';
 import Home from './components/Home';
-import Blogs from './components/Blogs';
 import Stickymain from './components/Stickymain';
 import Experience from './components/Experience';
+import Project from './components/Project';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -15,14 +17,10 @@ function App() {
       <Home />
       <About />
       <Experience />
-      {/* <Blogs /> */}
-      <div className="tnt">
-        <div className="social__box">
-          <i class="fa-solid fa-user"></i>
-        </div>
-        <Stickymain />
-      </div>
-
+      <Stickymain />
+      <Project />
+      <Contact/>
+      <Footer />
 
     </div>
   );

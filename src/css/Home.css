@@ -1,6 +1,241 @@
+
+@media only screen and (max-width: 480px) {
+  /* Mobile Devices */
+ 
+.home__wrapper {
+  width: 65vw;
+  margin: auto;
+  margin-top: 10vh;
+
+  margin-bottom: 30vh;
+}
+
+.animate {
+  animation: fadein 3s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.home__wrapper h1 {
+  font-size: 30px;
+  padding: 0;
+  margin: 0;
+  color:#CCD6F6;
+}
+
+.home__wrapper h2 {
+  font-size: 20px;
+  margin-top: 0;
+  padding: 0;
+  color: yellowgreen;
+}
+
+.home__wrapper p {
+  color: #CCD6F6;
+  font-size: 13px;
+  opacity:0.6
+}
+
+.resume__btn {
+  background-color: transparent;
+  height: 30px;
+  border: 1px solid yellowgreen;
+  font-family: cursive;
+  color:yellowgreen
+}
+
+.resume__btn:hover {
+  background-color: rgba(121, 197, 121, 0.4);
+}
+
+}
+
+@media only screen and (min-width:481px) and (max-width: 768px) {
+ /* IPADs */
+/* Tablets */
+.home__wrapper {
+  width: 65vw;
+  margin: auto;
+  margin-top:10vh;
+  margin-bottom:30vh;
+}
+
+.animate {
+  animation: fadein 3s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.home__wrapper h1 {
+  font-size: 50px;
+  padding: 0;
+  margin: 0;
+  color:#CCD6F6;
+}
+
+.home__wrapper h2 {
+  font-size: 20px;
+  margin-top: 0;
+  padding: 0;
+  color: yellowgreen;
+}
+
+.home__wrapper p {
+  color: #CCD6F6;
+  font-size: 15px;
+  opacity:0.6
+}
+
+.resume__btn {
+  background-color: transparent;
+  height: 40px;
+  border: 2px solid yellowgreen;
+  font-family: cursive;
+  color:yellowgreen
+}
+
+.resume__btn:hover {
+  background-color: rgba(121, 197, 121, 0.4);
+}
+}
+
+@media only screen and (min-width:769px) and (max-width: 1024px) {
+ /* Small Screen Laptops */
+ .home__wrapper {
+  width: 50vw;
+  margin: auto;
+  margin-top:10vh;
+  margin-bottom:30vh;
+}
+
+.animate {
+  animation: fadein 3s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.home__wrapper h1 {
+  font-size: 55px;
+  padding: 0;
+  margin: 0;
+  color:#CCD6F6;
+
+}
+
+.home__wrapper h2 {
+  font-size: 30px;
+  margin-top: 0;
+  padding: 0;
+  color: yellowgreen;
+  /* opacity: 0.7; */
+}
+
+.home__wrapper p {
+  color: #CCD6F6;
+  font-size: 18px;
+  opacity:0.6
+}
+
+.resume__btn {
+  background-color: transparent;
+  height: 40px;
+  border: 2px solid yellowgreen;
+  font-family: cursive;
+  color:yellowgreen
+}
+
+.resume__btn:hover {
+  background-color: rgba(121, 197, 121, 0.4);
+}
+}
+
+
+@media only screen and (min-width:1024px) and (max-width: 1200px) {
+  /* Desktops */
+  .home__wrapper {
+    width: 50%;
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 30%;
+  }
+  
+  .animate {
+    animation: fadein 3s;
+  }
+  
+  @keyframes fadein {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .home__wrapper h1 {
+    font-size: 60px;
+    padding: 0;
+    margin: 0;
+    color:#CCD6F6;
+    
+  }
+  
+  .home__wrapper h2 {
+    font-size: 30px;
+    margin-top: 0;
+    padding: 0;
+    color: yellowgreen;
+    /* opacity: 0.7; */
+  }
+  
+  .home__wrapper p {
+    color: #CCD6F6;
+    font-size: 20px;
+    opacity:0.6
+  }
+  
+  .resume__btn {
+    background-color: transparent;
+    height: 40px;
+    border: 2px solid yellowgreen;
+    font-family: cursive;
+    color:yellowgreen
+  }
+  
+  .resume__btn:hover {
+    background-color: rgba(121, 197, 121, 0.4);
+  }
+}
+
+@media only screen and (min-width:1201px) {
+/* Extra large screens,TV */
+
 .home__wrapper {
   width: 50%;
   margin: auto;
+  margin-top: 10%;
+  margin-bottom: 30%;
 }
 
 .animate {
@@ -20,27 +255,34 @@
   font-size: 60px;
   padding: 0;
   margin: 0;
+  color:#CCD6F6;
+  
 }
 
 .home__wrapper h2 {
   font-size: 30px;
   margin-top: 0;
   padding: 0;
-  color: rgb(121, 197, 121);
+  color: yellowgreen;
+  /* opacity: 0.7; */
 }
 
 .home__wrapper p {
-  color: rgb(58, 54, 54);
-  font-size: 25px;
+  color: #CCD6F6;
+  font-size: 20px;
+  opacity:0.6
 }
 
 .resume__btn {
   background-color: transparent;
   height: 40px;
-  border: 2px solid rgb(121, 197, 121);
+  border: 2px solid yellowgreen;
   font-family: cursive;
+  color:yellowgreen
 }
 
 .resume__btn:hover {
   background-color: rgba(121, 197, 121, 0.4);
+}
+
 }

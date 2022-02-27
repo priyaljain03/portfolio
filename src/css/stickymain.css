@@ -1,3 +1,58 @@
+
+@media only screen and (max-width: 480px) {
+  /* Mobile Devices */
+  .sticky__wrapper {
+    display: flexbox;
+    justify-content: space-between;
+  }
+  
+  .sticky-mail {
+    writing-mode: vertical-rl;
+    vertical-align: middle;
+    color: yellowgreen;
+    position: fixed;
+    bottom: 0px;
+    right: 10px;
+    font-family: monospace;
+    float: right !important;
+    transition: transform 500ms;
+    justify-content: flex-end !important;
+    font-size: 13px;
+    letter-spacing: 1px;
+  }
+  
+  .sticky-mail:hover {
+    color: yellowgreen;
+    transform: scale(1.1);
+  }
+  
+  .sticky__icons {
+    position: fixed;
+    bottom: 0px;
+    font-size: 20px;
+    writing-mode: vertical-rl;
+    margin-left: 10px;
+    justify-content: flex-start !important;
+    color:yellowgreen
+  }
+  
+  .sticky__icons a {
+    padding: 15px;
+    transition: transform 500ms;
+    color:yellowgreen
+  }
+  
+  .sticky__icons a:hover {
+    transform: scale(1.6) !important;
+    color: rgba(121, 197, 121);
+  }
+  
+  
+}
+
+@media only screen and (min-width:481px) and (max-width: 768px) {
+ /* IPADs */
+/* Tablets */
 .sticky__wrapper {
   display: flexbox;
   justify-content: space-between;
@@ -6,7 +61,56 @@
 .sticky-mail {
   writing-mode: vertical-rl;
   vertical-align: middle;
-  color: black;
+  color: yellowgreen;
+  position: fixed;
+  bottom: 0px;
+  right: 10px;
+  font-family: monospace;
+  float: right !important;
+  transition: transform 500ms;
+  justify-content: flex-end !important;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+
+.sticky-mail:hover {
+  color: yellowgreen;
+  transform: scale(1.1);
+}
+
+.sticky__icons {
+  position: fixed;
+  bottom: 0px;
+  font-size: 20px;
+  writing-mode: vertical-rl;
+  margin-left: 10px;
+  justify-content: flex-start !important;
+  color:yellowgreen
+}
+
+.sticky__icons a {
+  padding: 15px;
+  transition: transform 500ms;
+  color:yellowgreen
+}
+
+.sticky__icons a:hover {
+  transform: scale(1.6) !important;
+  color: rgba(121, 197, 121);
+}
+}
+
+@media only screen and (min-width:769px) and (max-width: 1024px) {
+ /* Small Screen Laptops */
+ .sticky__wrapper {
+  display: flexbox;
+  justify-content: space-between;
+}
+
+.sticky-mail {
+  writing-mode: vertical-rl;
+  vertical-align: middle;
+  color: yellowgreen;
   position: fixed;
   bottom: 0px;
   right: 20px;
@@ -20,7 +124,7 @@
 }
 
 .sticky-mail:hover {
-  color: green;
+  color: yellowgreen;
   /* bottom: 153px; */
   transform: scale(1.1);
 }
@@ -32,14 +136,121 @@
   writing-mode: vertical-rl;
   margin-left: 20px;
   justify-content: flex-start !important;
+  color:yellowgreen
 }
 
 .sticky__icons a {
   padding: 15px;
   transition: transform 500ms;
+  color:yellowgreen
 }
 
 .sticky__icons a:hover {
   transform: scale(1.6) !important;
   color: rgba(121, 197, 121);
+}
+}
+
+@media only screen and (min-width:1024px) and (max-width: 1200px) {
+  /* Desktops */
+  .sticky__wrapper {
+    display: flexbox;
+    justify-content: space-between;
+  }
+  
+  .sticky-mail {
+    writing-mode: vertical-rl;
+    vertical-align: middle;
+    color: yellowgreen;
+    position: fixed;
+    bottom: 0px;
+    right: 20px;
+    margin-left: 20px;
+    font-family: monospace;
+    float: right !important;
+    transition: transform 500ms;
+    justify-content: flex-end !important;
+    font-size: 13px;
+    letter-spacing: 1px;
+  }
+  
+  .sticky-mail:hover {
+    color: yellowgreen;
+    /* bottom: 153px; */
+    transform: scale(1.1);
+  }
+  
+  .sticky__icons {
+    position: fixed;
+    bottom: 0px;
+    font-size: 20px;
+    writing-mode: vertical-rl;
+    margin-left: 20px;
+    justify-content: flex-start !important;
+    color:yellowgreen
+  }
+  
+  .sticky__icons a {
+    padding: 15px;
+    transition: transform 500ms;
+    color:yellowgreen
+  }
+  
+  .sticky__icons a:hover {
+    transform: scale(1.6) !important;
+    color: rgba(121, 197, 121);
+  }
+}
+
+@media only screen and (min-width:1201px) {
+/* Extra large screens,TV */
+.sticky__wrapper {
+  display: flexbox;
+  justify-content: space-between;
+}
+
+.sticky-mail {
+  writing-mode: vertical-rl;
+  vertical-align: middle;
+  color: yellowgreen;
+  position: fixed;
+  bottom: 0px;
+  right: 20px;
+  margin-left: 20px;
+  font-family: monospace;
+  float: right !important;
+  transition: transform 500ms;
+  justify-content: flex-end !important;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+
+.sticky-mail:hover {
+  color: yellowgreen;
+  /* bottom: 153px; */
+  transform: scale(1.1);
+}
+
+.sticky__icons {
+  position: fixed;
+  bottom: 0px;
+  font-size: 20px;
+  writing-mode: vertical-rl;
+  margin-left: 20px;
+  justify-content: flex-start !important;
+  color:yellowgreen
+}
+
+.sticky__icons a {
+  padding: 15px;
+  transition: transform 500ms;
+  color:yellowgreen
+}
+
+.sticky__icons a:hover {
+  transform: scale(1.6) !important;
+  color: rgba(121, 197, 121);
+}
+
+
 }
