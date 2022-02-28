@@ -16,15 +16,16 @@ function About() {
                     <div class="content_text" >
                         <h1>About Me</h1>
                         <div className="content_body">
-                            <p style={{ marginTop: '0px' }}>Hello! My name is Priyal and I enjoy creating things that live on the internet. My interest in web development started back in 2012 when I decided to try editing custom Tumblr themes — turns out hacking together a custom reblog button taught me a lot about HTML & CSS!</p>
-                            <p>Fast-forward to today, and I’ve had the privilege of working at an advertising agency, a start-up, a huge corporation, and a student-led design studio. My main focus these days is building accessible, inclusive products and digital experiences at Upstatement for a variety of clients.</p>
-                            <p>Here are a few technologies I’ve been working with recently:
-                                JavaScript (ES6+)
-                                TypeScript
-                                React
-                                Eleventy
-                                Node.js
-                                WordPress</p>
+                            <p style={{ marginTop: '0px' }}>Hello! My name is Priyal and I enjoy creating things for Internet. My Interest in web development started back in 2018 when I decided to try creating a few websites for my college projects which taught me a lot about development in Ruby and HTML /  CSS!</p>
+                            <p>As of today, I’ve had worked at a Company as a <span style={{color:'yellowgreen'}}>Python</span> and <span style={{color:'yellowgreen'}}>Salesforce Developer</span>. My main focus these days is learning to build Web based Applications using ReactJS and Django as major technologies.</p>
+                            <p>Here are a few technologies I’ve been working with recently:<br />
+                                JavaScript(ES6+)<br />
+                                React<br />
+                                Django<br />
+                                Python<br />
+                                HTML/CSS<br />
+                                Salesforce - Apex, Lightning Components , VF pages etc.<br />
+                                </p>
                         </div>
 
                     </div>

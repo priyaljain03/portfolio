@@ -64,7 +64,8 @@
   color: yellowgreen;
   position: fixed;
   bottom: 0px;
-  right: 10px;
+  right: 20px;
+  margin-left: 20px;
   font-family: monospace;
   float: right !important;
   transition: transform 500ms;
@@ -75,6 +76,7 @@
 
 .sticky-mail:hover {
   color: yellowgreen;
+  /* bottom: 153px; */
   transform: scale(1.1);
 }
 
@@ -83,7 +85,7 @@
   bottom: 0px;
   font-size: 20px;
   writing-mode: vertical-rl;
-  margin-left: 10px;
+  margin-left: 20px;
   justify-content: flex-start !important;
   color:yellowgreen
 }

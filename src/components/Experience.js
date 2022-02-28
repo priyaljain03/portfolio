@@ -3,35 +3,23 @@ import '../css/Experience.css'
 import ExperienceItem from './ExperienceItem'
 
 function Experience() {
-    const [state, setState] = useState({ company: 'Infobeans', title: "Software Engineer", from: 'July 2019', to: 'September 2021', description: 'Write modern, performant, maintainable code for a diverse array of client and internal projects.Work with a variety of different languages, platforms, frameworks, and content management systems such as JavaScript, TypeScript, Gatsby, React, Craft, WordPress, Prismic, and Netlify' })
+    const [state, setState] = useState({ company: 'Infobeans', title: "Software Engineer", from: 'July 2019', to: 'September 2021', description: `2 years of experience as a Administration and
+    Developer in Salesforce.com. Has good knowledge
+    of the Technical and Functional aspects of
+    Salesforce.com, on demand CRM package.Worked on the designing of custom objects, custom fields, role based page layouts, custom Tabs, custom reports, report folders, report extractions to various formats, design of Visual Force Pages, Dashboards and various other components as per the client and application requirements.` })
 
     const handleclick = (e) => {
-        console.log(e.target.id)
-
         if (e.target.id === "InfoBeans") {
             setState({
                 company: 'InfoBeans',
                 title: "Software Engineer ",
-                description: 'Write modern, performant, maintainable code for a diverse array of client and internal projects .Work with a variety of different languages, platforms, frameworks, and content management systems such as JavaScript, TypeScript, Gatsby, React, Craft, WordPress, Prismic, and Netlify',
+                description: `2 years of experience as a Administration and Developer in Salesforce.com. Has good knowledge
+                of the Technical and Functional aspects of
+                Salesforce.com, on demand CRM package.Worked on the designing of custom objects, custom fields, role based page layouts, custom Tabs, custom reports, report folders, report extractions to various formats, design of Visual Force Pages, Dashboards and various other components as per the client and application requirements.`,
                 from: 'July 2019',
                 to: 'September 2021',
             })
-        } else if (e.target.id === 'Apple') {
-            setState({
-                company: 'Apple',
-                title: "Software Engineer",
-                description: 'this is Apple',
-                from: 'July 2019', to: 'September 2021'
-            })
-        }
-        else if (e.target.id === 'Google') {
-            setState({
-                company: 'Google',
-                title: "Software Engineer",
-                description: 'this is Google',
-                from: 'July 2019', to: 'September 2021',
-            })
-        }
+        } 
     }
 
     return (
@@ -43,8 +31,6 @@ function Experience() {
                 <hr />
                 <ul className="experience__tabs">
                     <li id="InfoBeans" className="tab" onClick={handleclick}>Infobeans</li>
-                    {/* <li id="Apple" className="tab" onClick={handleclick}>Apple</li>
-                    <li id="Google" className="tab" onClick={handleclick}>google</li> */}
                 </ul>
                 <div className="experience__content">
                     <ExperienceItem company={state.company} title={state.title} description={state.description} from={state.from} to={state.to} />
