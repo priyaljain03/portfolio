@@ -37,18 +37,42 @@
   
   @media only screen and (min-width:769px) and (max-width: 1024px) {
    /* Small Screen Laptops */
-   
+   .footer{
+    width: 15%;
+    margin:auto;
+    padding-bottom:10px;
+    color:#CCD6F6;
+    font-size:14px;
+    font-family:cursive;
+}
+
+
+.footer span{
+    color:yellowgreen
+}
   }
   
   @media only screen and (min-width:1024px) and (max-width: 1200px) {
     /* Desktops */
-   
+    .footer{
+      width: 13%;
+      margin:auto;
+      padding-bottom:10px;
+      color:#CCD6F6;
+      font-size:14px;
+      font-family:cursive;
+  }
+  
+  
+  .footer span{
+      color:yellowgreen
+  }
   }
   
   @media only screen and (min-width:1201px) {
   /* Extra large screens,TV */
   .footer{
-    width: 10%;
+    width: 12%;
     margin:auto;
     padding-bottom:10px;
     color:#CCD6F6;

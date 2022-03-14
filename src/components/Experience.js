@@ -25,7 +25,7 @@ function Experience() {
     return (
         <div id="experience" className="experience__wrapper">
             <div className="experience__header__wrapper">
-                <h3 className="experience__header">Where I've Worked </h3>
+                <h3 className="experience__header"><span style={{color:"yellowgreen"}}>03. </span>Where I've Worked </h3>
             </div>
             <div className="experience__inner">
                 <hr />

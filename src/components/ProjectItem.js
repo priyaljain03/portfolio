@@ -10,25 +10,24 @@ function ProjectItem(props) {
 
     return (
         <div className="projectItem__card" >
-            <div className="card__header">
-                <h4>{title}</h4>
-                <div className="icons">
+                  <div className="icons">
                         {github?<a className="icon" href={github} target="_blank"><FontAwesomeIcon icon={faGithub} /></a>:""}
                         {weblink?<a className="icon" href={weblink} target="_blank"><FiArrowUpRight /></a>:""}
-                </div>
+                    </div>
+            <div className="card__header">
+            <h4>{title}</h4>     
             </div>
             <div className="card__body">
-                {description}
+                {description}          
             </div>
             <div className="card__footer">
             <div className="technology__list">
                         <ul>
                             {technologies.map((tech) => {
-                                return <li>{tech} |</li>
+                                return <li key={tech}>{tech} |</li>
                             })}
                         </ul>
                     </div>
-                   
             </div>
         </div>
     )

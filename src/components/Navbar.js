@@ -19,11 +19,11 @@ function Navbar() {
             <span className="logo">P</span>
             <nav>
             <ul>
-                <li><a href="/" >Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li ><a href="#experience">Experience</a></li>
-                <li ><a href="#projects">Projects</a></li>
-                <li ><a href="#contact">Contact</a></li>
+                <li><a href="/" ><span style={{color:"yellowgreen"}}>01. </span>Home</a></li>
+                <li><a href="#about"><span style={{color:"yellowgreen"}}>02. </span>About</a></li>
+                <li ><a href="#experience"><span style={{color:"yellowgreen"}}>03. </span>Experience</a></li>
+                <li ><a href="#projects"><span style={{color:"yellowgreen"}}>04. </span>Projects</a></li>
+                <li ><a href="#contact"><span style={{color:"yellowgreen"}}>05. </span>Contact</a></li>
             </ul>
             </nav>
            

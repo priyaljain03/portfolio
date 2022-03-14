@@ -303,14 +303,14 @@
 @media only screen and (min-width:1201px) {
 /* Extra large screens,TV */
 .container {
-  margin-top: 15% !important;
-  margin-bottom: 15% !important;
-  width: 85%;
+  margin-top: 10% !important;
+  margin-bottom: 10% !important;
+  width: 75%;
   margin: auto;
   display: flex;
   background:transparent;
   border: 1px solid yellowgreen;
-  padding: 40px;
+  padding: 20px;
 }
 
 .animate {
@@ -327,40 +327,36 @@
 }
 
 .about__content {
-  width: 75%;
+  width: 85%;
   margin: auto;
   color: #CCD6F6;
-
 }
 
 .about__content h1 {
-  font-size: 70px;
+  font-size: 80px;
   margin-top: 0px;
   margin-bottom: 0px;
   color:yellowgreen;
-  opacity: 0.9;
 }
 
 .about__image img {
   height: 250px;
   width: 250px;
   object-fit:cover;
-  /* opacity:0.6; */
   border-radius: 100%;
-  /* background-color: rgba(0, 0, 0, 0.8); */
   transition: transform 900ms;
   margin-top: 10vh;
-  /* border: 8px solid black; */
 }
+
 .content_text{
   margin-left: 5vw;
 }
+
 .content_body {
   text-align: left;
   margin-top: 2%;
-
+  font-size:20px
 }
-
 
 .about__image img:hover {
   transform: scale(0.9);

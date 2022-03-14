@@ -8,7 +8,6 @@ function ExperienceItem(props) {
                 <h5 style={{ fontSize: '20px', margin: '0px' }}>{props.title} <strong style={{ color: 'yellowgreen', fontSize: '15px' }}>@{props.company}</strong></h5>
                 <strong style={{ color: 'yellowgreen', fontSize: '13px', marginBottom: '40px' }}>{props.from} - {props.to}</strong><br />
                 {props.description}
-
             </div>
         </div>
     )

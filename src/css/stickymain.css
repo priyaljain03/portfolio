@@ -9,15 +9,15 @@
   .sticky-mail {
     writing-mode: vertical-rl;
     vertical-align: middle;
-    color: yellowgreen;
+    color: #CCD;
     position: fixed;
     bottom: 0px;
-    right: 10px;
+    right: 20px;
     font-family: monospace;
     float: right !important;
     transition: transform 500ms;
     justify-content: flex-end !important;
-    font-size: 13px;
+    font-size: 15px;
     letter-spacing: 1px;
   }
   
@@ -29,22 +29,22 @@
   .sticky__icons {
     position: fixed;
     bottom: 0px;
-    font-size: 20px;
+    font-size: 23px;
     writing-mode: vertical-rl;
-    margin-left: 10px;
+    margin-left: 16px;
     justify-content: flex-start !important;
-    color:yellowgreen
+    color:#CCD
   }
   
   .sticky__icons a {
     padding: 15px;
     transition: transform 500ms;
-    color:yellowgreen
+    color:#CCD
   }
   
   .sticky__icons a:hover {
     transform: scale(1.6) !important;
-    color: rgba(121, 197, 121);
+    color: yellowgreen;
   }
   
   
@@ -61,7 +61,7 @@
 .sticky-mail {
   writing-mode: vertical-rl;
   vertical-align: middle;
-  color: yellowgreen;
+  color: #CCD;
   position: fixed;
   bottom: 0px;
   right: 20px;
@@ -70,30 +70,29 @@
   float: right !important;
   transition: transform 500ms;
   justify-content: flex-end !important;
-  font-size: 13px;
+  font-size: 15px;
   letter-spacing: 1px;
 }
 
 .sticky-mail:hover {
   color: yellowgreen;
-  /* bottom: 153px; */
   transform: scale(1.1);
 }
 
 .sticky__icons {
   position: fixed;
   bottom: 0px;
-  font-size: 20px;
+  font-size: 25px;
   writing-mode: vertical-rl;
   margin-left: 20px;
   justify-content: flex-start !important;
-  color:yellowgreen
+  color:#CCD
 }
 
 .sticky__icons a {
   padding: 15px;
   transition: transform 500ms;
-  color:yellowgreen
+  color:#CCD
 }
 
 .sticky__icons a:hover {
@@ -112,44 +111,43 @@
 .sticky-mail {
   writing-mode: vertical-rl;
   vertical-align: middle;
-  color: yellowgreen;
+  color: #CCD;
   position: fixed;
   bottom: 0px;
-  right: 20px;
+  right: 25px;
   margin-left: 20px;
   font-family: monospace;
   float: right !important;
   transition: transform 500ms;
   justify-content: flex-end !important;
-  font-size: 13px;
+  font-size: 15px;
   letter-spacing: 1px;
 }
 
 .sticky-mail:hover {
   color: yellowgreen;
-  /* bottom: 153px; */
   transform: scale(1.1);
 }
 
 .sticky__icons {
   position: fixed;
   bottom: 0px;
-  font-size: 20px;
+  font-size: 23px;
   writing-mode: vertical-rl;
-  margin-left: 20px;
+  margin-left: 25px;
   justify-content: flex-start !important;
-  color:yellowgreen
+  color:#CCD
 }
 
 .sticky__icons a {
   padding: 15px;
   transition: transform 500ms;
-  color:yellowgreen
+  color:#CCD
 }
 
 .sticky__icons a:hover {
   transform: scale(1.6) !important;
-  color: rgba(121, 197, 121);
+  color: yellowgreen;
 }
 }
 
@@ -166,41 +164,41 @@
     color: yellowgreen;
     position: fixed;
     bottom: 0px;
-    right: 20px;
+    right: 25px;
     margin-left: 20px;
     font-family: monospace;
     float: right !important;
     transition: transform 500ms;
     justify-content: flex-end !important;
-    font-size: 13px;
+    font-size: 15px;
     letter-spacing: 1px;
   }
   
   .sticky-mail:hover {
     color: yellowgreen;
-    /* bottom: 153px; */
     transform: scale(1.1);
   }
   
   .sticky__icons {
     position: fixed;
     bottom: 0px;
-    font-size: 20px;
+    font-size: 25px;
     writing-mode: vertical-rl;
     margin-left: 20px;
     justify-content: flex-start !important;
-    color:yellowgreen
+    color:#CCD;
+    animation: fadein 1s ease forwards;
   }
   
   .sticky__icons a {
     padding: 15px;
     transition: transform 500ms;
-    color:yellowgreen
+    color:#CCD
   }
   
   .sticky__icons a:hover {
     transform: scale(1.6) !important;
-    color: rgba(121, 197, 121);
+    color: yellowgreen;
   }
 }
 
@@ -214,44 +212,43 @@
 .sticky-mail {
   writing-mode: vertical-rl;
   vertical-align: middle;
-  color: yellowgreen;
+  color: #CCD;
   position: fixed;
   bottom: 0px;
-  right: 20px;
+  right: 40px;
   margin-left: 20px;
   font-family: monospace;
   float: right !important;
   transition: transform 500ms;
   justify-content: flex-end !important;
-  font-size: 13px;
+  font-size: 20px;
   letter-spacing: 1px;
 }
 
 .sticky-mail:hover {
   color: yellowgreen;
-  /* bottom: 153px; */
   transform: scale(1.1);
 }
 
 .sticky__icons {
   position: fixed;
   bottom: 0px;
-  font-size: 20px;
+  font-size: 30px;
   writing-mode: vertical-rl;
-  margin-left: 20px;
+  margin-left: 30px;
   justify-content: flex-start !important;
-  color:yellowgreen
+  color:#CCD;
 }
 
 .sticky__icons a {
   padding: 15px;
   transition: transform 500ms;
-  color:yellowgreen
+  color:#CCD
 }
 
 .sticky__icons a:hover {
   transform: scale(1.6) !important;
-  color: rgba(121, 197, 121);
+  color: yellowgreen
 }
 
 
