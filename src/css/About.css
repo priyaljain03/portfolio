@@ -267,7 +267,7 @@
   }
   
   .about__content h1 {
-    font-size: 70px;
+    font-size: 60px;
     margin-top: 0px;
     margin-bottom: 0px;
     color:yellowgreen;
@@ -313,18 +313,6 @@
   padding: 20px;
 }
 
-.animate {
-  animation: fadein 3s;
-}
-
-@keyframes fadein {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
 
 .about__content {
   width: 85%;
@@ -333,7 +321,7 @@
 }
 
 .about__content h1 {
-  font-size: 80px;
+  font-size: 60px;
   margin-top: 0px;
   margin-bottom: 0px;
   color:yellowgreen;
@@ -355,7 +343,6 @@
 .content_body {
   text-align: left;
   margin-top: 2%;
-  font-size:20px
 }
 
 .about__image img:hover {

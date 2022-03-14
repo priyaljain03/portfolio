@@ -221,7 +221,7 @@
   float: right !important;
   transition: transform 500ms;
   justify-content: flex-end !important;
-  font-size: 20px;
+  font-size: 15px;
   letter-spacing: 1px;
 }
 
@@ -233,7 +233,7 @@
 .sticky__icons {
   position: fixed;
   bottom: 0px;
-  font-size: 30px;
+  font-size: 20px;
   writing-mode: vertical-rl;
   margin-left: 30px;
   justify-content: flex-start !important;

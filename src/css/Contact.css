@@ -97,7 +97,7 @@
     
     .contact__wrapper h1{
         color:#CCD6F6;
-        font-size:60px;
+        font-size:40px;
         text-align:center
     }
     
@@ -125,7 +125,7 @@
 
 .contact__wrapper h1{
     color:#CCD6F6;
-    font-size:70px;
+    font-size:40px;
     text-align:center
 }
 
@@ -133,12 +133,12 @@
     color:#CCD6F6;
     opacity: 0.6;
     text-align: center;
-    font-size:25px
+    font-size:20px
 }
 
 .contact__wrapper h4{
     color:yellowgreen;
     text-align:center;
-    font-size:20px
+    font-size:17px
 }
   }
